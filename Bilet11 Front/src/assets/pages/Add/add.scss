@@ -1,0 +1,16 @@
+.form_container{
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    .form{
+        
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        input{
+            padding: 15px;
+        }
+    }
+}
